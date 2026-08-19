@@ -665,20 +665,39 @@ color: #000;
 
         /* ==================== Brand Start Here ==================== */
 
-/*.brand_wrapper{
+#brand{
+    padding-bottom: 120px;
+}
+
+.brand_wrapper{
 border: 3px solid #036E8A;
 border-radius: 15px;
 padding: 70px;
 display: flex;
 justify-content: space-between;
-
+align-items: center;
 }
 .brand_item{
-    height: 100px;   
+    position: relative;
+    
 }
-.brand_item img{
-    align-items: center;
-}*/
+.brand_item::after{
+    position: absolute;
+    content: "";
+    right: -63px;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 73px;
+    width: 3px;
+    background-color: #036E8A;
+    border-radius: 5px;
+
+}
+.brand_item:last-child::after{
+background: transparent;
+    
+}
+
 /* ==================== Brand End Here ==================== */
 
         /* ==================== Start Here ==================== */
