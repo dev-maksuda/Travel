@@ -553,6 +553,8 @@ color: #000;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    position: relative;
+    z-index: 555;
 }
 .counter_wrapper{
     display: flex;
@@ -582,6 +584,8 @@ color: #000;
     /* ==================== News Letter Start Here ==================== */
 #newsletter{
     padding: 100px 0 130px 0;
+    position: relative;
+    z-index: 555;
 }
 .newsletter_gal{
     display: flex;
@@ -667,6 +671,8 @@ color: #000;
 
 #brand{
     padding-bottom: 120px;
+    position: relative;
+    z-index: 555;
 }
 
 .brand_wrapper{
@@ -691,17 +697,118 @@ align-items: center;
     width: 3px;
     background-color: #036E8A;
     border-radius: 5px;
-
 }
 .brand_item:last-child::after{
 background: transparent;
-    
 }
 
 /* ==================== Brand End Here ==================== */
 
-        /* ==================== Start Here ==================== */
-         /* ====================  End Here ==================== */
+/* ==================== Review  Start Here ==================== */
+
+#review{
+    padding-bottom: 155px;
+}
+#review .sec_title{
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 23px;
+}
+.review_heading .review_heading{
+    color: #000;
+    max-width: 830px;
+    margin: 0 auto;
+    text-align: center;
+}
+.review_wrapper{
+    margin-top: 110px;
+    display: flex;
+    column-gap: 72px;
+    row-gap: 77px;
+    flex-wrap: wrap;
+}
+.review_item{
+    width: 538px;
+    height: 400px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    padding: 20px 59px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: all linear 0.3s;
+}
+.review_img{
+    width: 113px;
+    height: 113px;
+    border: 1.5px solid #707070;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.review_img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.review_details{
+    margin-top: 26px;
+    text-align: center;
+}
+.review_details h4{
+    font-family: "Montserrat", sans-serif;
+    color: #036E8A;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: normal;
+
+}
+.review_details h5{
+    font-family: "Montserrat", sans-serif;
+    color: #000;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: normal;
+
+}
+.review_rating{
+    margin: 8px 0 20px 0;
+    color: #FF8000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+}
+
+.review_item:nth-child(odd):hover{
+    background-color: #036E8A;
+}
+.review_item:nth-child(odd):hover .review_details h4, 
+.review_item:nth-child(odd):hover .review_details h5, 
+.review_item:nth-child(odd):hover .review_details .review_rating, 
+.review_item:nth-child(odd):hover .review_details .peragraph, 
+.review_item:nth-child(even):hover .review_details h4, 
+.review_item:nth-child(even):hover .review_details h5, 
+.review_item:nth-child(even):hover .review_details .review_rating, 
+.review_item:nth-child(even):hover .review_details .peragraph { 
+    color: #FFFFFF;
+}
+.review_item:nth-child(even):hover{
+    background-color: #FF8000;
+}
+.review_shape{
+    position: relative;
+}
+.review_shape img{
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translate(-50%,-70%);
+}
+.review_container{
+    position: relative;
+    z-index: 555;
+}
+
+/* ==================== Review  End Here ==================== */
 
         
         /* ==================== Start Here ==================== */
