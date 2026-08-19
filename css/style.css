@@ -777,7 +777,12 @@ background: transparent;
     justify-content: center;
     gap: 6px;
 }
-
+.review_details .peragraph{
+    color: #000;
+    max-width: 830px;
+    margin: 0 auto;
+    text-align: center;
+}
 .review_item:nth-child(odd):hover{
     background-color: #036E8A;
 }
@@ -811,12 +816,130 @@ background: transparent;
 /* ==================== Review  End Here ==================== */
 
         
-        /* ==================== Start Here ==================== */
-         /* ====================  End Here ==================== */
+/* ==================== Message Us  Start Here ==================== */
+#message{
+padding-bottom: 120px;
+}
+.message_main_box{
+    position: relative;
+    background-color: #036E8A;
+    padding: 85px;
+    border-radius: 50px;
+  
+}
+.message_wrapper{
+    position: relative;
+    z-index: 555;
+}
+.message_wrapper h2{
+    font-size: 70px;
+    color: #FFFFFF;
+    font-weight: 700;
+    line-height: normal;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    position: relative;
+    margin-bottom: 135px;
+}
+.message_wrapper h2::after{
+position: absolute;
+content: "";
+width: 778px;
+height: 3px;
+border-radius: 8px;
+background-color: #FFFFFF;
+bottom: -60%;
+left: 50%;
+transform: translateX(-50%);
+}
+.message_wrapper .peragraph{
+    font-size: 30px;
+    font-weight: 500;
+    max-width: 661px;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    margin-bottom: 103px;
+}
+.message_wrapper .peragraph::after{
+position: absolute;
+content: "";
+width: 411px;
+height: 3px;
+background-color: #FFFFFF;
+bottom: -60%;
+left: 50%;
+border-radius: 8px;
+transform: translateX(-50%);
+}
+.message_btn button{
+    background-color: #FF8000;
+    padding: 21px 67px;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: normal;
+    color: #FFFFFF;
+    text-transform: capitalize;
+    border-radius: 16px;
+
+}
+.message_btn{
+    text-align: center;
+}
+.message_image{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+/* ==================== Message Us  End Here ==================== */
 
         
-        /* ==================== Start Here ==================== */
-         /* ====================  End Here ==================== */
+/* ==================== Footer Start Here ==================== */
+/*
+.footer_title{
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: normal;
+    color: #036E8A;
+    position: relative;
+    margin-bottom: 70px;
+
+}
+.footer_title::after{
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: -30px;
+    width: 142px;
+    height: 2px;
+    background-color: #036E8A;
+}
+.footer_wrapper{
+    padding-bottom: 98px;
+    display: flex;
+}
+.footer_link{
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+}
+.footer_link li a{
+    font-family: "Montserrat", sans-serif;
+    color: #262525;
+    font-size: 20px;
+    line-height: normal;
+    font-weight: 400;
+    text-transform: capitalize;
+
+}
+*/
+
+/* ==================== Footer End Here ==================== */
+
 
         
         
