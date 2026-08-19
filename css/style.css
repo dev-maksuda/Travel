@@ -1,0 +1,696 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style-type: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+    line-height: 0.8;
+}
+.container{
+    width: 1148px;
+    margin: 0 auto;
+}
+.sec_subtitle{
+    font-family: "Montserrat", sans-serif;
+    color: #000;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 400;
+    line-height: normal;
+}
+.sec_title{
+    font-family: "Montserrat", sans-serif;
+    color: #036E8A;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: normal;
+}
+.peragraph{
+font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #FFFFFF;
+    line-height: normal;
+}
+/* =================== Navbar Start Here ==================== */
+
+#navbar{
+padding: 15px 0;
+background-color: #FFFFFF;
+position: absolute;
+left: 0;
+top: 36px;
+width: 100%;
+}
+.nav_wrapper{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 20%;
+    
+}
+.menu{
+   width: 60%;
+    
+}
+.nav_actions{
+     width: 20%;
+     display: flex;
+     column-gap: 8px;
+     justify-content: end;
+    
+}
+.nav_actions_item{
+    display: inline-block;
+    width: 23px;
+    min-height: 23px;
+   border-radius: 50%;
+    border: 1px solid #036E8A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav_actions_item i{
+color: #036E8A;
+font-size: 10px;
+}
+.menu ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 45px;
+}
+.menu ul li a{
+    font-family: "Montserrat", sans-serif;
+    color: #036E8A;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+}
+/* =================== Navbar End Here ==================== */
+
+
+
+/* ===================Banner Start Here ==================== */
+
+#banner{
+    background: url(../images/banner.jpg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 257px;
+    padding-bottom: 200px;
+}
+.banner_wrapper{
+    max-width: 784px;
+    margin: 0 auto;
+}
+.banner_wrapper h1{
+    font-family: "Montserrat", sans-serif;
+    color: #FFFFFF;
+    font-size: 89px;
+    font-weight: 700;
+    text-transform: uppercase;
+    max-width: 700px;
+    line-height: 1.1;
+}
+.banner_wrapper .peragraph{
+    margin-top: 24px;
+    
+}
+.form_inner{
+    margin-top: 45px;
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+    
+}
+.banner_search{
+    width: 428px;
+    height: 60px;
+    border: 1px solid #036E8A;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+
+}
+.banner_search input{
+    font-family: "Montserrat", sans-serif;
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border: none;
+    padding-left: 95px;
+    padding-right: 20px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #036E8A;
+}
+.banner_search input::placeholder{
+    color: #036E8A;
+}
+.banner_search i{
+color: #036E8A;
+position: absolute;
+top: 50%;
+left: 23px;
+transform: translateY(-50%);
+font-size: 24px;
+}
+.map_circle{
+    width: 58px;
+    height: 58px;
+    border: 1px  solid #FFFFFF;
+    background-color: #FF8000;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.map_circle i{
+    color: #FFFFFF;
+    font-size: 30px;
+}
+/*==================== Banner End Here ====================*/
+/*==================== Destination Start Here ====================*/
+#destination{
+padding-top: 148px;
+padding-bottom: 90px;
+position: relative;
+z-index: 999;
+}
+
+.destination_wrapper{
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+}
+.destination_content{
+    width: 560px;
+   
+}
+
+.destination_content .sec_title{
+    margin-top: 31px;
+}
+.destination_content .peragraph{
+    color: #000;
+    margin-top: 30px;
+}
+.destination_video{
+    width: 508px;
+    height: 369px;
+    border-radius: 25px;
+    overflow: hidden;
+    position: relative;
+
+}
+
+.destination_video img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.destination_video_icon{
+    position: absolute;
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    background: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    color: #036E8A;
+    
+}
+.book_now{
+    margin-top: 70px;
+    border: 2px solid #036E8A;
+    border-radius: 10px;
+    padding: 54px 64px 50px 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.book_now_btn{
+    padding: 16px 45px;
+    background: #FF8000;
+    color: #FFFFFF;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: normal;
+    font-family: "Montserrat", sans-serif;
+    border-radius: 15px;
+}
+.location_price .location h4{
+font-family: "Montserrat", sans-serif;
+color: #036E8A;
+font-size: 30px;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+}
+.star_wrapper{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin-top: 14px;
+}
+.star_wrapper i{
+    color: #FF8000;
+}
+.star_wrapper i:last-child{
+    opacity: 0.5;
+}
+.location_price .price .peragraph{
+    color: #000;
+}
+.location_price{
+    display: flex;
+    gap: 166px;
+}
+.location_price .price span{
+    font-family: "Montserrat", sans-serif;
+    color: #036E8A;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: normal;
+}
+.location_price .location{
+    position: relative;
+}
+.location_price .location::after{
+    position: absolute;
+    content: "";
+    top: 10px;
+    right: -80px;
+    height: 96px;
+    width: 4px;
+    background: #FF8000;
+}
+
+/*==================== Destination End Here ====================*/
+/* ==================== Package Start Here ====================*/
+
+#Package{
+padding-bottom: 114px;
+}
+.package_shape{
+    position: relative;
+}
+.package_shape img{
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%, 50%);
+}
+.package_title{
+    position: relative;
+    z-index: 999;
+}
+.package_title .sec_title{
+text-align: center;
+font-size: 60px;
+margin-bottom: 23px;
+}
+.package_title .peragraph{
+    color: #000;
+    text-align: center;
+    max-width: 830px;
+    margin: 0 auto;
+}
+.package_wrapper{
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.package_item{
+    width: 356px;
+    position: relative;
+    z-index: 999;
+}
+.package_item_inner{
+    
+    border: 1.5px solid #036E8A;
+    padding: 36px 36px 76px 36px;
+    border-radius: 12px;
+    position: relative;
+    transition: all linear 0.3s;
+}
+.package_item_inner .sec_title{
+    font-size: 40px;
+}
+.package_item_inner .price{
+    font-size: 60px;
+}
+.package_item_inner h5{
+    font-family: "Montserrat", sans-serif;
+    color: #036E8A;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 6px;
+    transition: all linear 0.3s;
+}
+.package_item_inner ul{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.package_item_inner ul li{
+    display: flex;
+    align-items: center;
+    gap: 13px;
+}
+.package_item_inner ul li i{
+    color: #036E8A;
+    transition: all linear 0.3s;
+}
+.package_item_inner ul li span{
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: normal;
+    color: #000;
+
+}
+.fa-circle-check.disable{
+    opacity: 0.5;
+}
+.Package_btn{
+    font-family: "Montserrat", sans-serif;
+    padding: 14px 26px;
+    background-color: #036E8A;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+    display: inline-block;
+    border-radius: 15px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50% ,50%);
+    width: 200px;
+    bottom: 0;
+     transition: all linear 0.3s;
+}
+.trial{
+text-align: center;
+margin-top: 42px;
+color: #000;
+}
+.package_item_inner:hover{
+    border: 1px solid #FF8000;
+}
+.package_item_inner:hover .sec_title, .package_item_inner:hover h5, .package_item_inner:hover ul li i{
+    color: #FF8000;
+}
+.package_item_inner:hover .Package_btn{
+    background-color: #FF8000;
+}
+
+/* ==================== Package End Here ====================*/
+ /*==================== Destination 2 Start Here ==================== */
+#destination2{
+    padding: 70px;
+    background-color: #036E8A;
+}
+.destination2_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    z-index: 55;
+}
+.destination2_img{
+    width: 508px;
+    height: 523px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.destination2_img img{
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
+}
+.destination2_details{
+    width: 566px;
+   
+}
+.destination2_details .sec_subtitle{
+    color: #FFFFFF;
+}
+.destination2_details .sec_title{
+    color: #FFFFFF;
+    margin: 30px 0;
+}
+.destination2_shape{
+    position: relative;
+}
+.destination2_shape img{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -35px;
+}
+        /* ==================== Destination 2 End Here ==================== */
+     /* ==================== Gallery Start Here ==================== */
+#gallery{
+    padding: 110px 0;
+}
+.gal_wrapper{
+    margin-top: 106px;
+    display: flex;
+    gap: 16px;
+}
+.gal_title .sec_title{
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 23px;
+}
+.gal_title .peragraph{
+    color: #000;
+    max-width: 830px;
+    margin: 0 auto;text-align: center;
+}
+.gal_item{
+    width: 275px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+}
+.gal_item_inner{
+    width: 100%;
+    border-radius: 28px;
+    overflow: hidden;
+    position: relative;
+}
+.gal_item_inner img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.gal_item_inner.large{
+    height: 407px;
+    
+}
+.gal_item_inner.small{
+    height: 256px;
+}
+.gal_item_inner .overlay {
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+    z-index: 2; 
+}
+
+.gal_item_inner .overlay h3{
+    font-size: 25px;
+    color: #707070;
+    font-weight: 700;
+    line-height: normal;
+    font-family: "Montserrat", sans-serif;
+}
+.gal_item_inner .overlay h6{
+    font-size: 20px;
+    color: #707070;
+    font-weight: 700;
+    line-height: normal;
+    font-family: "Montserrat", sans-serif;
+}
+.gal_shape{
+    position: relative;
+}
+.gal_shape img{
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+        /* ==================== Gallery End Here ==================== */
+    
+/* ==================== Counter Start Here ==================== */
+#counter{
+    padding: 90px 0 120px 0;
+    background-image: url("../images/counter\ banner.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.counter_wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.counter_item{
+    width: 22%;
+    text-align: center;
+    
+}
+.counter_item h3{
+    color: #707070;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: normal;
+    font-family: "Montserrat", sans-serif;
+}
+.counter_item span{
+    color: #707070;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: normal;
+    
+}
+
+        /* ==================== Counter End Here ===================== */
+    /* ==================== News Letter Start Here ==================== */
+#newsletter{
+    padding: 100px 0 130px 0;
+}
+.newsletter_gal{
+    display: flex;
+    gap: 23px;
+    margin-bottom: 20px;
+}
+.newsletter_gal_item{
+    width: 275px;
+    height: 240px;
+    overflow: hidden;
+    border-radius: 25px;
+    background-color: red;
+}
+.newsletter_gal_item:last-child{
+    width: 850px;
+}
+.newsletter_box{
+    display: flex;
+    justify-content: space-between;
+}
+.newsletter_box_img{
+    width: 514px;
+    height: 482px;
+    border-radius: 25px;
+    overflow: hidden;
+}
+.newsletter_box_form{
+    width: 566px;
+}
+.newsletter_box_form .sec_subtitle{
+    color: #036E8A;
+    padding-top: 80px;
+    padding-bottom: 30px;
+
+}
+.newsletter_form{
+    margin-top: 46px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+.newsletter_form .form_group{
+    position: relative;
+    
+}
+.newsletter_form .form_group i{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(60%,-50%);
+    color: #036E8A;
+    font-size: 30px;
+}
+.newsletter_form .form_group input{
+    border: 1.5px solid #036E8A;
+    padding: 28px 63px;
+    border-radius: 15px;
+    color: #036E8A;
+    font-size: 20px;
+    font-weight: 400;
+    width: 330px;
+    line-height: normal;
+    font-family: "Montserrat", sans-serif;
+}
+.newsletter_form .form_group input::placeholder{
+    color: #036E8A;
+}
+.newsletter_form button{
+    background-color: #FF8000;
+    border-radius: 15px;
+    padding: 22px 40px;
+    color: #FFFFFF;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: normal;
+    border: none;
+    width: 208px;
+
+}
+        /* ==================== News Letter End Here ==================== */
+
+        /* ==================== Brand Start Here ==================== */
+
+/*.brand_wrapper{
+border: 3px solid #036E8A;
+border-radius: 15px;
+padding: 70px;
+display: flex;
+justify-content: space-between;
+
+}
+.brand_item{
+    height: 100px;   
+}
+.brand_item img{
+    align-items: center;
+}*/
+/* ==================== Brand End Here ==================== */
+
+        /* ==================== Start Here ==================== */
+         /* ====================  End Here ==================== */
+
+        
+        /* ==================== Start Here ==================== */
+         /* ====================  End Here ==================== */
+
+        
+        /* ==================== Start Here ==================== */
+         /* ====================  End Here ==================== */
+
+        
+        
