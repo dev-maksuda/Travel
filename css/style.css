@@ -804,7 +804,7 @@ background: transparent;
 }
 .review_shape img{
     position: absolute;
-    left: 50%;
+    left: 45%;
     top: 0;
     transform: translate(-50%,-70%);
 }
@@ -898,8 +898,13 @@ transform: translateX(-50%);
 
         
 /* ==================== Footer Start Here ==================== */
-/*
-.footer_title{
+
+footer {
+    background-color: #efe7e7; 
+    width: 100%;
+}
+
+.footer_title {
     font-family: "Montserrat", sans-serif;
     font-size: 24px;
     font-weight: 700;
@@ -907,9 +912,8 @@ transform: translateX(-50%);
     color: #036E8A;
     position: relative;
     margin-bottom: 70px;
-
 }
-.footer_title::after{
+.footer_title::after {
     position: absolute;
     content: "";
     left: 0;
@@ -918,25 +922,78 @@ transform: translateX(-50%);
     height: 2px;
     background-color: #036E8A;
 }
-.footer_wrapper{
+.footer_wrapper {
+    padding-top: 60px;
     padding-bottom: 98px;
     display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    flex-wrap: wrap; 
 }
-.footer_link{
+.footer_link {
+    list-style: none; 
+    padding: 0;
+    margin: 0;
     display: flex;
     flex-direction: column;
     row-gap: 25px;
 }
-.footer_link li a{
+
+.footer_link li a {
     font-family: "Montserrat", sans-serif;
     color: #262525;
     font-size: 20px;
     line-height: normal;
     font-weight: 400;
     text-transform: capitalize;
+    text-decoration: none;
 
 }
-*/
+
+.copyright {
+    background-color: #FF8000;
+    padding: 42px 0;
+    width: 100%;
+}
+
+.copyright_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; 
+    gap: 20px;
+}
+
+.copyright_wrapper .paragraph {
+    color: #FFFFFF;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    margin: 0;
+}
+
+.footer_socials {
+   display: flex;
+   align-items: center;
+   gap: 15px;
+   justify-content: center;
+}
+.footer_socials .nav_actions_item {
+    display: flex;         
+    align-items: center;    
+    justify-content: center; 
+    width: 29px;            
+    height: 29px;           
+    border: 1px solid #FFFFFF; 
+    border-radius: 50%;     
+    text-decoration: none;  
+
+}
+
+.footer_socials .nav_actions_item i {
+    color: #FFFFFF;
+    font-size: 12px;
+}
+
 
 /* ==================== Footer End Here ==================== */
 
